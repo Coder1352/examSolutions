@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 300 138.53">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        font-family: Calibri, Calibri;
+        font-size: 17.66px;
+      }
+
+      .cls-3 {
+        clip-path: url(#clippath-11);
+      }
+
+      .cls-4 {
+        clip-path: url(#clippath-16);
+      }
+
+      .cls-5 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-6 {
+        letter-spacing: 0em;
+      }
+
+      .cls-7 {
+        clip-path: url(#clippath-2);
+      }
+
+      .cls-8 {
+        clip-path: url(#clippath-13);
+      }
+
+      .cls-9 {
+        clip-path: url(#clippath-15);
+      }
+
+      .cls-10 {
+        clip-path: url(#clippath-6);
+      }
+
+      .cls-11 {
+        clip-path: url(#clippath-7);
+      }
+
+      .cls-2 {
+        fill: red;
+      }
+
+      .cls-12 {
+        clip-path: url(#clippath-1);
+      }
+
+      .cls-13 {
+        clip-path: url(#clippath-4);
+      }
+
+      .cls-14 {
+        clip-path: url(#clippath-12);
+      }
+
+      .cls-15 {
+        stroke: #000;
+        stroke-miterlimit: 8;
+        stroke-width: 2.25px;
+      }
+
+      .cls-15, .cls-16, .cls-17 {
+        fill: none;
+      }
+
+      .cls-18 {
+        clip-path: url(#clippath-9);
+      }
+
+      .cls-19 {
+        clip-path: url(#clippath);
+      }
+
+      .cls-16 {
+        clip-rule: evenodd;
+      }
+
+      .cls-20 {
+        clip-path: url(#clippath-3);
+      }
+
+      .cls-21 {
+        clip-path: url(#clippath-8);
+      }
+
+      .cls-22 {
+        letter-spacing: 0em;
+      }
+
+      .cls-23 {
+        clip-path: url(#clippath-14);
+      }
+
+      .cls-24 {
+        clip-path: url(#clippath-5);
+      }
+
+      .cls-25 {
+        clip-path: url(#clippath-10);
+      }
+
+      .cls-26 {
+        fill-rule: evenodd;
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-17" width="300" height="138.53"/>
+    </clipPath>
+    <clipPath id="clippath-1">
+      <polygon class="cls-16" points="0 138.53 300 138.53 300 0 0 0 0 138.53 0 138.53"/>
+    </clipPath>
+    <clipPath id="clippath-2">
+      <polygon class="cls-16" points="0 138.53 300 138.53 300 0 0 0 0 138.53 0 138.53"/>
+    </clipPath>
+    <clipPath id="clippath-3">
+      <polygon class="cls-16" points="0 138.53 300 138.53 300 0 0 0 0 138.53 0 138.53"/>
+    </clipPath>
+    <clipPath id="clippath-4">
+      <polygon class="cls-16" points="0 138.53 300 138.53 300 0 0 0 0 138.53 0 138.53"/>
+    </clipPath>
+    <clipPath id="clippath-5">
+      <rect class="cls-17" width="300" height="138.53"/>
+    </clipPath>
+    <clipPath id="clippath-6">
+      <polygon class="cls-16" points="0 138.53 300 138.53 300 0 0 0 0 138.53 0 138.53"/>
+    </clipPath>
+    <clipPath id="clippath-7">
+      <rect class="cls-17" width="300" height="138.53"/>
+    </clipPath>
+    <clipPath id="clippath-8">
+      <polygon class="cls-16" points="0 138.53 300 138.53 300 0 0 0 0 138.53 0 138.53"/>
+    </clipPath>
+    <clipPath id="clippath-9">
+      <polygon class="cls-16" points="0 138.53 300 138.53 300 0 0 0 0 138.53 0 138.53"/>
+    </clipPath>
+    <clipPath id="clippath-10">
+      <polygon class="cls-16" points="0 138.53 300 138.53 300 0 0 0 0 138.53 0 138.53"/>
+    </clipPath>
+    <clipPath id="clippath-11">
+      <polygon class="cls-16" points="0 138.53 300 138.53 300 0 0 0 0 138.53 0 138.53"/>
+    </clipPath>
+    <clipPath id="clippath-12">
+      <polygon class="cls-16" points="0 138.53 300 138.53 300 0 0 0 0 138.53 0 138.53"/>
+    </clipPath>
+    <clipPath id="clippath-13">
+      <polygon class="cls-16" points="0 138.53 300 138.53 300 0 0 0 0 138.53 0 138.53"/>
+    </clipPath>
+    <clipPath id="clippath-14">
+      <polygon class="cls-16" points="0 138.53 300 138.53 300 0 0 0 0 138.53 0 138.53"/>
+    </clipPath>
+    <clipPath id="clippath-15">
+      <rect class="cls-17" width="300" height="138.53"/>
+    </clipPath>
+    <clipPath id="clippath-16">
+      <polygon class="cls-16" points="0 138.53 300 138.53 300 0 0 0 0 138.53 0 138.53"/>
+    </clipPath>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g>
+      <g class="cls-19">
+        <text class="cls-2" transform="translate(231.1 118.49)"><tspan x="0" y="0">C</tspan><tspan class="cls-6" x="9.42" y="0">A</tspan><tspan class="cls-22" x="19.67" y="0">R</tspan><tspan class="cls-5" x="29.28" y="0">R</tspan><tspan x="38.69" y="0">Y</tspan></text>
+      </g>
+      <g class="cls-12">
+        <path class="cls-15" d="m126,86.02h30.67c16.94,0,30.67,11.53,30.67,25.75s-13.73,25.75-30.67,25.75h-30.67v-51.5h0Z"/>
+        <g class="cls-7">
+          <line class="cls-15" x1="187.12" y1="112.78" x2="224.77" y2="113.02"/>
+          <g class="cls-20">
+            <line class="cls-15" x1="27.23" y1="16.13" x2="130.43" y2="16.13"/>
+            <g class="cls-13">
+              <g class="cls-24">
+                <text class="cls-1" transform="translate(10.65 42.37)"><tspan x="0" y="0">B</tspan></text>
+              </g>
+              <g class="cls-10">
+                <g class="cls-11">
+                  <text class="cls-1" transform="translate(10.65 21.82)"><tspan x="0" y="0">A</tspan></text>
+                </g>
+                <g class="cls-21">
+                  <line class="cls-15" x1="27.23" y1="36.85" x2="130.43" y2="36.85"/>
+                  <g class="cls-18">
+                    <polyline class="cls-15" points="46.58 36.64 46.58 129.41 124.54 129.41 124.54 127.78"/>
+                    <path class="cls-26" d="m46.58,39.61c1.64,0,2.97-1.33,2.97-2.97s-1.33-2.97-2.97-2.97-2.97,1.33-2.97,2.97,1.33,2.97,2.97,2.97h0Z"/>
+                    <g class="cls-25">
+                      <polyline class="cls-15" points="78.73 16.13 78.73 99.3 123.56 99.3 123.56 98.91"/>
+                      <path class="cls-26" d="m78.73,19.1c1.64,0,2.97-1.33,2.97-2.97s-1.33-2.97-2.97-2.97-2.97,1.33-2.97,2.97,1.33,2.97,2.97,2.97h0Z"/>
+                      <g class="cls-3">
+                        <path class="cls-15" d="m124.63,1.64l33.71.44c14.86.44,36.28,16.19,36.28,24.46s-20.76,24.23-36.28,25.11l-33.72.22"/>
+                        <g class="cls-14">
+                          <path class="cls-15" d="m124.09,51.87c4.93,0,7.4-16.52,7.4-24.89s-2.47-25.34-7.4-25.34"/>
+                          <g class="cls-8">
+                            <path class="cls-15" d="m118.59,51.87c4.93,0,7.4-16.52,7.4-24.89s-2.47-25.34-7.4-25.34"/>
+                            <g class="cls-23">
+                              <g class="cls-9">
+                                <text class="cls-2" transform="translate(237.69 32.25)"><tspan class="cls-22" x="0" y="0">S</tspan><tspan x="8.13" y="0">UM</tspan></text>
+                              </g>
+                              <g class="cls-4">
+                                <line class="cls-15" x1="195.26" y1="26.28" x2="232.91" y2="26.52"/>
+                              </g>
+                            </g>
+                          </g>
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

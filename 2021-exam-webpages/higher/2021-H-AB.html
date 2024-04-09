@@ -1,0 +1,883 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+<body>
+    
+<div>
+    <h1>Leaving Cert Exam 2021</h1>
+    <h2>Computer Science</h2>
+    <h2>Sections A & B</h2>
+    <h2>Higher Level</h2>
+</div>
+
+<section>
+
+<div class="section-heading">
+    <div><h2>Section A</h2></div>
+    <div><h2>Short Answer Questions</h2></div>
+    <div><h2>30 marks</h2></div>
+</div>
+
+<p>Answer any six questions.</p>
+
+<p><b>Question 1</b></p>
+<p>What is the output of the following piece of Python code?</p>
+  
+<pre  class="code-block">
+<code>
+x = 3
+print("x is", x)
+
+y = x
+x = x+4
+print(x, y)
+
+x = y*2
+print(x, 2**y)
+
+y = x-y-1
+print("y is y")
+</code>
+</pre>    
+ 
+<p>Output:</p>
+<pre class="code-block">
+<code>
+x is 3
+7 3
+6 8
+y is y
+</code>
+</pre> 
+    
+<p><b>Question 2</b></p>
+    
+<p><b>(a)</b> Explain why data is stored in computers in binary format.</p>
+    
+<p class="answer">Data is stored on different components in computers such as the CPU, RAM and secondary 
+    storage, as well as transistors and logic gates. These components contain circuits. Computers use and store information in binary format, which is 
+    a system of representing information using only two digits: 0 and 1. These values are physically represented
+    within a computer, when voltage flows through a circuit or not. In many computers a voltage of 3.3
+    or 5 volts flowing through a circuit represents a 1. 0 volts flowing through the circuit represents 
+    a 0. The use of binary information allows computers to rely on Boolean logic, which is an important part 
+    of computer programming.
+    In addition, all computers have a finite storage space and they aren't suitable for storing large quantities 
+    of continuous data. So, it's necessary to store information in a discrete or binary form.
+</p>
+    
+<p><b>(b)</b> A single bit can be used to represent two pieces of information.</p>
+    
+<p class="indent"><b>(i)</b> How many unique pieces of information could be represented using four bits?</p>
+    
+<div class="answer">
+
+    <table>
+        <tr>
+            <td>3</td>
+            <td>2</td>
+            <td>1</td>
+            <td>0</td>
+        </tr>
+        <tr>
+            <td>8</td>
+            <td>4</td>
+            <td>2</td>
+            <td>1</td>
+        </tr>
+    </table>
+
+    <br><br>
+    8+4+2+1=15
+    <br><br>
+    Answer = 15
+
+</div>
+    
+<p class="indent"><b>(ii)</b> What is the minimum number of bits required to represent eight unique pieces of information?</p>
+    
+<p class="answer">3</p>
+    
+<p><b>Question 3</b></p>
+    
+<p><b>(a)</b> State two differences between RAM and ROM</p>
+    
+<p class="answer">
+1. Random access memory is volatile. It stores data temporarily, while the computer is powered on. ROM, on the 
+other hand is non-volatile, and stores information persistently. It stores information, regardless of whether
+the computer is powered on or off.
+2. RAM stores information for immediate use by the CPU, while ROM stores information that can be used at any time.
+</p>
+    
+<p><b>(b)</b> Explain how increasing the amount of RAM on a computer might improve its performance.</p>
+    
+<p class="answer">Generally, the faster the RAM, the faster the processing 
+    speed. With faster RAM, you increase the speed at which memory transfers
+    information to other components. This improves the computer's overall performance.
+</p>
+    
+<p><b>Question 4</b></p>
+    
+<p>You are asked to swap the values of two variables, x and y, which have already been initialised.</p>
+    
+<p><b>(a)</b> Why does the method shown not work?</p>
+    
+<pre class="code-block">
+<code>
+x=y
+y=x
+</code>
+</pre>
+    
+<p class="answer">Since x and y have already been initalised, let's assume:<br>
+x=5<br>
+y=6<br><br>
+Taking the code above:<br>
+x=y, x is assigned the value 6.<br>
+y=x, y is also assigned the value 6, since x=y.<br>
+</p>
+    
+<p><b>(b)</b> Describe a method that does work. </p>
+    
+<p class="answer">To exchange the values:<br>
+    z=x<br>
+    x=y<br>
+    y=z
+</p>
+    
+<p><b>Queston 5</b></p>
+    
+<p>The flowchart in Figure 1 is a representation of an algorithm.</p>
+<br><br>    
+<img class="flowchart" src="/resources/2021-H-AB-12.png">
+<img class="flowchart" src="/resources/2021-H-AB-13.png">
+
+<p><b>(a)</b> Using inputs of 7, 3 and 8 for n, complete the trace table showing the execution of the 
+    algorithm.</p>
+
+    <table>
+        <tr>
+            <th>n</th>
+            <th>total</th>
+            <th>count</th>
+        </tr>
+        <tr>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>21</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>9</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>8</td>
+            <td>24</td>
+            <td>3</td>
+        </tr>
+    </table>
+
+    <p class="answer">The algorithm displays the value of n.</p>
+
+<p><b>Question 6</b></p>
+<p>You have been asked to assess an algorithm for a travel agent. The company gives discounts based 
+    on the number of people in a group.<br>  
+    The Python code below determines the type of discount to give based on the number of adults 
+    (num_adults) and the number of children (num_children) in a travelling group.</p>
+
+<pre  class="code-block">
+<code>
+num_adults = int(input("Enter the number of adults: "))
+num_children = int(input("Enter the number of children: "))
+
+if num_adults > 1 and num_children > 0:
+print("Family discount")
+elif num_adults >= 10:
+print("Large group discount")
+elif num_adults >= 5:
+print("Small group discount")
+else:
+print("No discount")
+</code>
+</pre>
+    
+<p>Describe two scenarios where the algorithm could be perceived to be unfair.</p>
+
+<p class="answer">
+Scenario 1:<br>
+There may be a scenario where there is a large group of adults and they don't have any children with them.<br> 
+num_children !>0 <br>
+In this case they won't get a discount.<br><br>
+Scenario 2:<br>
+The algorithm is mainly based on the number of adults. What if there is a large group of children, like a 
+school trip. If there aren't more than 4 adults, they won't get a discount.
+</p>
+
+<p><b>Question 7</b></p>
+<p><b>(a)</b> Differentiate between HTTP and HTTPS</p>
+
+<p class="answer">Both HTTP and HTTPS are communication protocols, which are a set of rules for transmitting data
+     across the internet. The client-server model uses several different protocols. HTTP and HTTPS are two layers 
+     of protocols in the client-server model.<br>HTTP stands for hyper text transfer protocol, which is a 
+     request-response protocol. It allows a client to issue a request for a resource (such as a web page) 
+    and the server to respond.<br>HTTPS stands for hyper text transfer protocol secure. It is a secure version of
+     HTTP. When using HTTPS, data transmitted between the client and server is encrypted. This prevents anyone who
+    intercepts the data to understand the data. HTTPS has become the standard on the internet in recent years, 
+    particularly for online payments.</p>
+
+<p><b>(b)</b></p>
+<p>Explain how the TCP communication protocol provides reliable communication between 
+    computers.</p>
+<p class="answer">Transmission control protocol operates at the transport layer, ensuring that binary information
+    is transported reliably between computers. The infomration is broken up into packets for efficient routing.
+    TCP keeps track of each of these packets, ensuring that they remain free of error and arrive at the client in
+    the same order as those tansmission by the server.
+</p>
+
+<p><b>Question 8</b></p>
+<p>The Unicode representation for the ‘thumbs up’ emoji character, is the hexadecimal 
+    number 1F44D.</p>
+<p><b>(a)</b> Explain why emoji characters are not represented using the American 
+    Standard Code for Information Interchange (ASCII).</p>
+
+<p class="answer">ASCII is a character encoding system that only includes up to 256 characters, 
+    primarily composed of English letters, numbers, and symbols. It uses up to eight bits to represent each 
+    character. In contrast, Unicode is a much larger encoding standard that includes over 149,000 characters.
+    It covers most of the world's writing systems, including ASCII, as well as symbols and emojis.
+</p>
+<p><b>(b)</b> Express the hexadecimal number 1F44D as a binary number. The first four bits have been 
+    completed for you.</p>
+
+<div class="answer">
+   
+    
+<p>
+
+Convert each hex digit to 4 binary digits:<br><br>
+1f44d<br><br>
+= 0001 1111 0100 0100 1101
+
+</p>
+    
+</div>
+
+<p><b>Question 9</b></p>
+<p><b>(a)</b> What is an operating system?</p>
+<p class="answer">An operating system is system software that manages computer hardware and software resources, 
+    and provides common services for computer programs. Examples of operating systems include:
+Windows, Linux and Mac OS.
+</p>
+<p><b>(b)</b> The diagram in Figure 3 depicts some of the main layers of an operating system. Select any 
+    two layers and explain their function.</p><br>
+
+<img class="img500" src="/resources/2021-H-AB-pg10.jpg">
+
+<p class="answer">
+    Memory management: Memory management deals with memory and the moving of processes from disk to primary 
+    memory for 
+    execution and back again. This is handled by the third layer of the operating system.<br>
+    Processor scheduling: This layer deals with scheduling the processes for the CPU. There are many 
+    scheduling queues that are used to handle processes. 
+    When the processes enter the system, they are put into the job queue.
+     The processes that are ready to execute in the main memory are kept in the ready queue.
+</p>
+
+<p><b>Question 10</b></p>
+<p><b>(a)</b> State two tasks that would be undertaken by a project manager in a software design 
+    process.
+</p>
+<p class="answer">A project manager is involved in producing a feasibility study and specification of
+    requirements.<br>
+    The project manager also forms and supervises the project team.
+</p>
+
+<p><b>(b)</b> Some programming roles require the knowledge of low‐level programming. How does a low‐
+    level computer program differ from a high‐level computer program?</p>
+<p class="answer">Based on the closeness of a programming language to the system hardware (mainly processor), 
+    computer programming languages are classified into two categories namely, high-level languages and low-level 
+    languages. The most fundamental difference between the two is that low-level 
+    languages are closer to the system hardware and require the knowledge of hardware to write the instructions.<br>
+    A High-Level Language is a computer programming language that uses English like statements to write the 
+    computer instructions.
+     High-level languages are most widely programming languages because they are easy to understand to human being.
+</p>
+
+<p><b>Question 11</b></p>
+<p><b>(a)</b> State two benefits of computer modelling.</p>
+<p>Computer models are software used to represent a real or virtual problem and simulate what is happening in 
+    the system the model represents.
+    These simulations allow the computer user to gain knowledge and make predictions about the model that
+    is frequently safer, cheaper and faster than conducting real-world experiments.
+</p>
+<p><b>(b)</b> Explain how agent‐based modelling may have been used during the COVID‐19 pandemic to 
+    influence public health policy.</p>
+<p class="answer">Agent-based models were used to help understand the spread of Covid. It helped experts 
+    predict trends and advise state organisation to deal effectively with the pandemic. Agent based models
+    simulated the transmission of Covid, the effect of lockdowns, vaccine roll-outs, and controlled 
+    return to work and school. 
+</p>
+
+<p><b>Question 12</b></p>
+<p>The following selection of data is taken from a table in a database used to store information about 
+    dogs. </p>
+<table>
+    <tr>
+        <th>dog_name</th>
+        <th>breed</th>
+        <th>dob</th>
+        <th>microchip</th>
+    </tr>
+    <tr>
+        <td>rover</td>
+        <td>labrador</td>
+        <td>21/11/2011</td>
+        <td>Y</td>
+    </tr>
+    <tr>
+        <td>fido</td>
+        <td>poodle</td>
+        <td>02/02/2020</td>
+        <td>Y</td>
+    </tr>
+    <tr>
+        <td>fido</td>
+        <td>jack russell</td>
+        <td>15/06/2015</td>
+        <td>N</td>
+    </tr>
+    <tr>
+        <td>champ</td>
+        <td>greyhound</td>
+        <td>01/01/2010</td>
+        <td>Y</td>
+    </tr>
+    <tr>
+        <td>spot</td>
+        <td>dalmation</td>
+        <td>24/08/2007</td>
+        <td>N</td>
+    </tr>
+    <tr>
+        <td>buddy</td>
+        <td>rottweiler</td>
+        <td>21/10/2012</td>
+        <td>Y</td>
+    </tr>
+</table>
+<br>
+<p><b>(a)</b> State why each of the following fields would not be good candidates for a primary key in the 
+    table shown above.</p>
+<p class="answer">A primary key needs to be unique.<br>
+In the 'dog_name' column, 'fido' has been included twice, so this shows how a dog's name is not a good unique id
+for a database.<br>
+'breed' is also not a good choice for a primary key. Even though there is no repetition, it would very likely that
+at some point, two dogs of the same breed will be added to the database.
+</p>
+<p><b>(b)</b> One owner can own many dogs. Explain how a foreign key could be introduced to improve 
+    the design of this database.</p>
+
+<img src="/resources/SVG/Asset 7.svg" width="1000px">
+
+<p class="answer">
+A primary key should be added to the dog table. Then each dog would have a unique id. This 
+primary key would then be added as a foreign key in the owner table. By doing this, you can remove the 
+information on dogs from the owner table, included in the columns: dog_name, breed, dob, microchip. This 
+information is represented by the foreign key and can be accessed through an SQL query.
+</p>
+
+<div class="section-heading">
+    <div><h2>Section B</h2></div>
+    <div><h2>Long Questions</h2></div>
+    <div><h2>30 marks</h2></div>
+</div>
+
+<p>Answer any one question</p>
+
+<p><b>Question 13</b></p>
+<p>Eircode is the postal address code system used in Ireland to uniquely identify every individual 
+    address in the country. An Eircode is a seven‐character code made up of two parts – a three‐
+    character Routing Key and a four‐character Unique Identifier.<br>
+    The first character in the Routing Key must always be a letter, and the second and third characters 
+    must always be digits.<br>
+    Every character in the Unique Identifier must be alpha‐numeric i.e. either a letter or a number.  
+    The format of the Eircode, A65 F4E2, is shown below in Figure 4.</p>
+<img class="img1000" src="/resources/eircode.jpg">
+
+<p><b>(a)</b> Explain why each of the following are not valid Eircodes.</p>
+<p><b>(i)</b> GA5 AOK1</p>
+<p class="answer">The second character is not a digit.</p>
+<p><b>(ii)</b> X234 Y56</p>
+<p class="answer">The routing key is four characters when it should be three. The Unique identifier is 
+    three and it should be four.
+</p>
+<p><b>(iii)</b> 8XT A43Y</p>
+<p class="answer">The first character of the routing key must be a letter. Here it is a digit.</p>
+
+<p><b>(b)</b> The intention of the Python code shown below is to implement a validation check for an 
+    Eircode.</p>
+
+<pre class="code-block">
+<code>
+1 def is_valid_eircode(test_eircode):
+2
+3 # This function checks whether 'test_eircode' is a valid Eircode or not
+4 # It returns True if 'test_eircode' is a valid Eircode. False otherwise.
+5
+6 # Uses:
+7 # s.isalpha() -> True if s contains alphabetic only; False otherwise
+8 # s.idigit() -> True if s contains digits only; False otherwise
+9 # s.isalnum() -> True if s contains alpha-numeric only; False otherwise
+10
+11 if not test_eircode[0].isalpha():
+12 return False
+13
+14 # if the second character isn’t a digit or the third character isn’t a
+15 # digit the Eircode is invalid so return False
+16 if ((not test_eircode[1].isdigit()) or (not test_eircode[2].isdigit())):
+17 return False
+18
+19 if not test_eircode[-4:].isalnum():
+20 return False
+21
+22 return True
+</code>
+</pre>
+
+<p><b>(i)</b> What is meant by the term ‘validation check’?</p>
+<p class="answer">
+    Data validation means checking the accuracy and quality of
+     data before processing it. For example, when signing up for a user account on a website, 
+     the validation might include: a presence check to ensure a username is entered; and a length check to determine 
+     if a password is at least eight characters long. 
+</p>
+
+<p><b>(ii)</b> Outline briefly how a test case could be used to test the above code. </p>
+<p class="answer">It's important to make sure the software doesn't do anything it shouldn't do. So as a test case,
+    you could choose to test and Eircode that you know should fail the validation check and return a false result.
+    If the program doesn't return a false output, then the program isn't functioning and needs to be analysed for 
+    'bugs'.
+</p>
+
+<p><b>(iii)</b> Two types of testing that could be performed on the code are unit testing and system 
+    testing. Distinguish between these two types of testing.</p>
+<p>Unit testing is often carried out during the 'Create' stage. This is the stage when the software is actually 
+    written. It's important that lessons can be learnt at every stage of the 'create' stage, which involves 
+    unit testing and iteration.
+</p>
+<p>System testing tests the entire system. The aim of system testing is to ensure it meets the specification
+    agreed with the client and the users.
+</p>
+
+<p><b>(iv)</b> This Python code will show that the Eircode, A99 SP@M A1OK, is valid even though it is 
+    not. Why does the code indicate that this Eircode is valid?</p>
+<p class="answer">is_valid_eircode() tests the first three characters and the last four characters of the Eircode
+    being tested. So any characters between the third character and the last four characters could be anything and 
+    still pass the test.
+</p>
+<p><b>(v)</b> After code has been changed it is important to conduct regression testing. Why is this 
+    important?</p>
+<p class="answer">Regression testing is a type of software testing conducted after a code update to ensure that 
+    the update introduced no new bugs. 
+    This is because new code may bring in new logic that conflicts with the existing code, leading to errors.</p>
+<p><b>(c)</b> The following questions are based on the code in part (b).</p> 
+<p><b>(i)</b> Explain what the following code does:</p>
+
+<pre class="code-block">
+<code>
+11 if not test_eircode[0].isalpha():
+12 return False 
+</code>
+</pre>
+
+<p class="answer">This is a python 'if statement'. It tests whether the first character in test_eircode is a letter. 
+    If it's not a letter, the output is "False".
+</p>
+<p><b>(ii)</b> Consider the following statement from line 16. </p>
+
+<pre class="code-block">
+<code>
+16 if ((not test_eircode[1].isdigit()) or (not test_eircode[2].isdigit())):
+</code>
+</pre>
+
+<p>If we let P represent the possible boolean values for 
+    test_eircode[1].isdigit() and Q represent the possible boolean values for 
+    test_eircode[2].isdigit(), complete the truth table below for the 
+    expression, not P or not Q.</p>
+<br>
+
+<img class="img500" src="/resources/SVG/truthTable1.svg">
+
+<br>
+<br>
+<p><b>(iii)</b> Using the same meanings for P and Q from part (ii) complete the truth table below for 
+    the expression, not (P and Q).</p>
+<br>
+
+<img class="img500" src="/resources/SVG/truthTable2.svg">
+
+<p><b>(iv)</b> Use your findings from parts (ii) and (iii) to re‐write the statement on line 16, without 
+    changing its logical meaning.</p>
+
+<pre class="code-block">
+<code>
+if ((not test_eircode[1].isdigit()) or (not test_eircode[2].isdigit())):
+</code>
+</pre>
+
+<pre class="code-block">
+<code>
+var P = test_eircode[1].isdigit()
+var Q = test_eircode[2].isdigit()
+
+if ((not P) or (not Q)):
+</code>
+</pre>
+
+<p><b>(v)</b> Explain how the technique of string slicing could be used to provide an alternative to 
+    the statement on line 16.</p>
+<pre class="code-block">
+<code>
+if ((not test_eircode[1].isdigit()) or (not test_eircode[2].isdigit())):
+</code>
+</pre>
+
+<p class="answer">You can return a range of characters by using string slicing. To do this, you specify the start 
+    index and the end index, separated by a colon, to return a part of the string. Rather than two separate statements
+to analyse the second and third characters, one statement can be used with string slicing. 
+</p>
+<pre class="code-block">
+<code>
+if (not test_eircode[1:2].isdigit()):
+</code>
+</pre>
+
+<p><b>Question 14</b></p>
+<p><b>(a)</b> Consider a two‐player game in which each player takes alternate turns 
+    at removing matchsticks from a board. The rules of the game are
+    simple:<br>
+    - at each turn a player must remove either one or two matchsticks<br>
+    - the player who takes the last matchstick wins<br>
+    Winning and losing positions are defined in terms of the number of matchsticks left on the 
+    board.
+    A winning position (W) is a position from which a player cannot lose if she/he makes all the 
+    optimal moves until the end of the game. For example, 2 is a winning position because if the 
+    player whose turn it is, makes the optimal move (i.e. removes the two remaining 
+    matchsticks) they will win that game.  
+    A losing position (L) is a position from which a player cannot win (assuming that their 
+    opponent makes all the optimal moves until the game is over). 
+    The win/loss table below depicts winning and losing positions for the scenarios where there 
+    are 0, 1, 2, 3 or 4 matchsticks left on the board.</p>
+
+<table>
+    <tr>
+        <td>No. of matchsticks remaining</td>
+        <td>0</td>
+        <td>1</td>
+        <td>2</td>
+        <td>3</td>
+        <td>4</td>
+    </tr>
+    <tr>
+        <td>Position (W or L)</td>
+        <td>L</td>
+        <td>W</td>
+        <td>W</td>
+        <td>L</td>
+        <td>W</td>
+    </tr>
+</table>
+
+<p><b>(i)</b> Explain why 3 is a losing position.</p>
+<p class="answer">Each player can only remove 1 or 2 matchsticks. So when there are three left, if player A
+    takes 1 match stick, there will be 2 left. Player B wins by taking the last two. If player A takes two 
+    match sticks, there will be 1 left, so player B wins by taking the last one.
+</p>
+
+<p><b>(ii)</b> Explain why 4 is a winning position.</p>
+<p class="answer">Assuming its player A's turn: player A should take 1 match stick. That will leave three left, 
+    leaving the other player in a losing position, as explained in answer (i) above.</p>
+
+<p><b>(iii)</b> Calculate whether 5 and 6 are winning or losing positions and place your answers in 
+    the table below.</p>
+
+<table>
+    <tr>
+        <td>No. of matchsticks remaining</td>
+        <td>0</td>
+        <td>1</td>
+        <td>2</td>
+        <td>3</td>
+        <td>4</td>
+        <td>5</td>
+        <td>6</td>
+    </tr>
+    <tr>
+        <td>Position (W or L)</td>
+        <td>L</td>
+        <td>W</td>
+        <td>W</td>
+        <td>L</td>
+        <td>W</td>
+        <td>W</td>
+        <td>L</td>
+    </tr>
+</table>
+
+<p class="answer">
+-5 matches: Assuming it's player A's turn, they can take two matches away and leave player B in a loosing
+position (3 matches has been already determined).<br>
+-6 matches: Assuming it's player B's turn, they are in a loosing position, because whether they take one 
+or two matches, they will leave player A in a winning position (5 or 4 matches).
+</p>
+
+<p><b>(iv)</b> Assume you are about to start a new game with 21 matchsticks. If your opponent 
+    offered you the choice of going first or second, which would you choose? Justify your 
+    answer.
+</p>
+
+<p class="answer">I'd go second. From what I have learnt previously, a pattern has formed. A losing position
+    occurs in multiples of 3. 21 is a multiple of 3. So by letting the other player go first, whether 
+    they take one or two matches, it will leave me in a winning position. 
+</p>
+<table>
+    <tr>
+        <td>No. of matchsticks remaining</td>
+        <td>0</td>
+        <td>1</td>
+        <td>2</td>
+        <td>3</td>
+        <td>4</td>
+        <td>5</td>
+        <td>6</td>
+    </tr>
+    <tr>
+        <td>Position (W or L)</td>
+        <td>L</td>
+        <td>W</td>
+        <td>W</td>
+        <td>L</td>
+        <td>W</td>
+        <td>W</td>
+        <td>L</td>
+    </tr>
+</table>
+
+<p><b>(v)</b> What strategy would you recommend in a game that started off with 20 matchsticks? 
+    Justify your answer.</p>
+
+<p class="answer">I'd choose to go first and take two matches, leaving the other player in a losing position. 
+    18, a multiple of 3.
+</p>
+
+<p><b>(vi)</b> Assume the rules of the game are amended so that players can remove 3 matches (as 
+    well as 1 or 2). Calculate whether or not each position in a game with 9 matchsticks is a 
+    winning or losing position and place your answers in the table below.</p>
+
+    <table>
+        <tr>
+            <td>No. of matchsticks remaining</td>
+            <td>0</td>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+            <td>7</td>
+            <td>8</td>
+            <td>9</td>
+        </tr>
+        <tr>
+            <td>Position (W or L)</td>
+            <td>L</td>
+            <td>W</td>
+            <td>W</td>
+            <td>W</td>
+            <td>L</td>
+            <td>W</td>
+            <td>W</td>
+            <td>W</td>
+            <td>L</td>
+            <td>W</td>
+        </tr>
+    </table>
+
+<p><b>(b)</b> Consider a variation of the game described in part (a) with two key differences: the 
+    matchsticks are initially arranged into two separate piles on the board and a player can 
+    remove any number of matchsticks from a single pile on their go. We will call the two piles 
+    pile X and pile Y.<br>
+    For example, in a game where pile X contains 10 matchsticks and pile Y contains 9 
+matchsticks, a player may decide to remove 9 matchsticks from pile Y on their go.<br>
+The player who removes the last matchstick(s) wins the game.<br>
+(i) Below is a partially completed diagram for an end game scenario in which it is player 
+A’s turn and there is only one matchstick left in pile X and two matchsticks left in pile Y 
+(denoted by 1, 2).<br>  
+The purpose of the diagram is to depict the eventual outcome for every possible move 
+from this point in the game. The left‐hand branch of the diagram has been completed 
+covering all eventualities if player A removes 1 matchstick from pile X (denoted by 
+AX1).<br><br>
+Complete the diagram to illustrate all possible moves and show who wins in each case. 
+</p>
+<br><br>
+<img id="endGameScenario"src="/resources/SVG/endGameScenario.svg">
+<br><br>
+
+<p><b>(ii)</b> Based on the completed diagram which is player A’s best move? Why?</p>
+<p class="answer">
+    Player A's best move: Player A's best move is AY1. <br>
+    Reason: This will result in A winning, regardless of 
+    B's move.
+</p>
+
+<p><b>(iii)</b> Describe a winning move from state (2, 3).</p>
+<p></p>
+
+<p><b>Question 15</b></p>
+<p><b>(a)</b> Charles Stark Draper is often credited with the invention of embedded systems.<br>
+    Embedded systems are a combination of hardware and software designed to 
+    perform a specific function. They are called ‘embedded’ because they are 
+    often used as part of a larger system. Many embedded systems use sensors 
+    to receive analogue or digital inputs. The input data which is often supplied 
+    in real time is then processed resulting in some sort of output. While not 
+    every embedded system will have a user interface, some are designed to 
+    meet the principles of universal design.
+</p>
+<p><b>(i)</b> Explain the terms hardware and software. Provide two examples of each.</p>
+
+<p class="answer">Computer hardware is any physical comppponents or parts that contribute to a computer system.<br>
+    Example 1: Central processing unit<br>
+    Example 2: Keyboard
+</p>
+<p class="answer">Software is a set of instructions, data or programs used to operate computers and execute specific 
+    tasks.<br>
+    Example 1: Microsoft Teams<br>
+    Example 2: Google classroom
+</p>
+
+<p><b>(ii)</b> Provide one example of a digital sensor and one example of an analogue sensor.</p>
+<p class="answer">
+    Digital sensor: A button<br>
+    Analogue sensor: A temperature sensor
+</p>
+<p><b>(iii)</b> Explain, with the aid of a diagram, the difference between digital and analogue input.</p>
+<p class="answer">Digital inputs are discrete, finite electrical signals, represented in computers by binary code,
+    1s and 0s. Analogue inputs are continuous, rather than discrete. There are many different possible values, 
+    rather than just binary values. Examples of analogue inputs include temperature or magnetism. There are 
+    a range of possible values, changing over time. In graphical terms, an analogue signal would be 
+    represented by a wave, as shown below.<br><br>
+
+<b><u>Analogue signal:</u></b><br><br>
+<img src="/resources/analogSignal.png"><br><br><br>
+<b><u>Digital signal:</u></b><br><br>
+<img src="/resources/digitalSignal.png">
+</p>
+
+<p><b>(v)</b> Describe two advantages of embedded systems over general purpose computer 
+    systems, such as desktop computers and laptops.</p>
+
+<p class="answer">
+    1. Embedded systems are usually cheaper because they are designed for a specific purpose and don't required 
+    extra functions.<br>
+    2. They also use less electricity, so they're  more environmentally friendly.
+</p>
+
+<p><b>(b)</b> According to the description provided in part (a), mobile devices such as smartphones and 
+    tablets could be considered to contain multiple embedded systems.</p>
+<p><b>(i)</b> Describe two examples of embedded systems on mobile devices.</p>
+
+<p class="answer">
+    1. In a mobile phone, a camera is an embedded system. It has it's own hardware and software.<br><br>
+    2. A speaker is also an embedded system. It is designed for a special purpose, rather than for various purposes.
+</p>
+
+<p><b>(ii)</b> In the context of mobile devices distinguish clearly between the terms, ‘user interface’ 
+    and ‘universal design’.</p>
+
+<p class="answer">
+    Both user interface and universal design, are aspects of user-centred design, which ensures
+    the mobile phone can be used as effectively as possible.<br>
+    The user interface is an important part of user experience, which highlights the importance of a good quality
+    user experience when interacting with the mobile phone. It includes the graphical elements, such as the operating 
+    system layout and links; as well as the physical elements, like ports and buttons.<br>
+    Universal design is a process of designing the mobile device so it is easy to understand, access and use it,
+    regardless of their age, size, or ability. Universal design is based on several principals, including: 
+    equitable use, flexibility, simplicity, perceptible information, tolerance for error, low physical effort,
+    and appropriate size and space. 
+</p>
+
+<p><b>(iii)</b> State two principles of universal design. For each principle you should describe how it 
+    relates to the design of an embedded system of your choice.</p>
+
+<p class="answer">
+    Principle 1:<br>
+    'Equitable use' means that the device is useful and marketable to people with diverse abilities.<br>
+    The vacuum robot is a device that is designed for equitable use because it solves a problem that most people
+    face, and so is useful to everyone. It can also be used by people of different abilities.<br><br>
+    Principle 2:<br>
+    'Simple and intuitive use' means that the design is easy to understand , regardless of the users'
+    experience, knowledge or language skills.<br>
+    The vacuum robot is also designed for simple and intuitive use. The user controls are in several languages and 
+    easy to understand, with icons and diagrams to assist the user.
+</p>
+
+<p><b>(c)</b> The market for embedded systems is likely to continue to grow for the foreseeable future as 
+    they are seen as key drivers of current and emerging trends in computing such as the 
+    Internet of Things (IoT), smart homes, smart cities, drones and surveillance technology.  
+    Discuss the potential impact of embedded systems on society. In your answer you should 
+    provide evidence that you have considered alternative perspectives of any two stakeholders 
+    that you think are relevant.</p>
+
+<p class="answer">
+    As you approach your front door, you activate the remote control in
+    your key. The door unlocks and the lock sends messages to change
+    the lights, the central heating, the television and your cooker. The hall
+    lights, television, cooker and heating all turn on as you have previously
+    programmed them to do. When you go in, you open the fridge and an
+    announcement reminds you that you will be running out of eggs soon
+    and tells you that it has put them on your shopping list. This is an example of domestic 
+    'internet of things'. The internet of things is made possible by embedded systems being able to 
+    connect together in a network.<br>
+    One stakeholder that I would consider important in this trend towards this internet of things is 
+    'the customer'. The emerging trends in computing is partly driven by commercial interests. 
+    There are enormous profits to be made by selling all these electrical devices; and these devices are 
+    made desirable through marketing techniques, transmitted through media like television and the internet.
+    These devices are designed to gather information through sensors in embedded systems. The data gathered 
+    can create 'smart' environments, like the smart home described above. For the customer, this brings value.
+    It can improve their 'quality of life'. Having a smart home has advantages, such as saving time, money 
+     and reducing stress levels. But there are also concerns surrounding privacy. Who should have access to this 
+     data other than the customer and why? There is also the consumption of electricity to consider. If we all 
+     have smart homes, we'll be contributing to a growing global problem of excessive energy consumption and global 
+     warming.<br>
+    Another stakeholder that is important in these emerging trends is 'the government'. Smart cities could be
+     extremely useful in situations that need a rapid local response. For example, if an ambulance is taking 
+     a seriously injured accident victim to hospital across a busy town or city, a camera could detect the 
+     flashing light on the ambulance and then send messages to the traffic lights in order to ensure that the 
+     ambulance has a clear route to its destination. A smart city could be equipped with thousands of remote 
+     sensors that report information on water leaks, public lighting, traffic congestion, litter
+     and, indeed, anything that can be ‘sensed’.<br>
+     One of the most obvious areas to benefit from the IoT is the health service. Biosensors are capable of 
+     detecting serious biological conditions. A person with heart problems might have an implant sensor
+     that monitors the level of cholesterol in the blood stream. This sensor could send a warning to the person’s 
+     home or the local doctor. Speed is
+     often the essential feature of successful treatment in such cases and the
+     IoT provides just that. So, embedded devices can help with managing the health services
+     but there are many opportunities for the government to use data science to help manage and run the country's 
+     public services. Security is another area where embedded systems such as drones and security cameras can come
+     in useful. The gardai should use technology to maintain law and order. The use of embedded systems can help to 
+     make gardai more effective and assist with surveillance and prosecution of crime. The use of video footage can 
+     be used in court to help prove a crime has been committed and help protect Irish citizens from dangerous 
+     criminals.
+</p>
+
+</section>
+    
+</body>
+</html>

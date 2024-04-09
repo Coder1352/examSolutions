@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 326.28 99.32">
+  <defs>
+    <style>
+      .cls-1 {
+        font-family: CourierNewPS-BoldMT, 'Courier New';
+        font-weight: 700;
+      }
+
+      .cls-1, .cls-2 {
+        font-size: 10.98px;
+      }
+
+      .cls-3 {
+        letter-spacing: -.05em;
+      }
+
+      .cls-4 {
+        fill: #231f20;
+        font-family: MyriadPro-Regular, 'Myriad Pro';
+        font-size: 12px;
+      }
+
+      .cls-2 {
+        font-family: CourierNewPSMT, 'Courier New';
+      }
+
+      .cls-5 {
+        letter-spacing: -.04em;
+      }
+
+      .cls-6 {
+        fill: #f2f2f2;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <rect class="cls-6" x=".48" y=".48" width="77.22" height="19.14"/>
+    <rect class="cls-6" x="5.64" y="3.84" width="66.96" height="12.42"/>
+    <rect class="cls-6" x="78.24" y=".48" width="69.84" height="19.14"/>
+    <text class="cls-1" transform="translate(35.82 12.96)"><tspan x="0" y="0">P </tspan></text>
+    <rect class="cls-6" x="83.4" y="3.84" width="60" height="12.42"/>
+    <rect class="cls-6" x="149.58" y=".48" width="76.92" height="19.14"/>
+    <text class="cls-1" transform="translate(110.1 12.96)"><tspan x="0" y="0">Q </tspan></text>
+    <rect class="cls-6" x="154.2" y="3.84" width="67.2" height="12.42"/>
+    <polyline class="cls-6" points="227.04 .48 325.8 .48 325.8 19.62 227.04 19.62"/>
+    <text class="cls-1" transform="translate(164.64 12.96)"><tspan x="0" y="0">P and Q </tspan></text>
+    <rect class="cls-6" x="232.2" y="3.84" width="88.44" height="12.42"/>
+    <rect width=".48" height=".48"/>
+    <text class="cls-1" transform="translate(233.52 12.96)"><tspan x="0" y="0">not (P and Q) </tspan></text>
+    <rect width="227.04" height=".48"/>
+    <polyline points="227.04 0 325.8 0 325.8 .48 227.04 .48"/>
+    <rect x="325.8" width=".48" height=".48"/>
+    <rect x="325.8" width=".48" height=".48"/>
+    <rect y=".48" width=".48" height="19.14"/>
+    <rect x="77.76" y=".48" width=".48" height="19.14"/>
+    <rect x="149.1" y=".48" width=".48" height="19.14"/>
+    <rect x="148.14" y=".48" width=".48" height="19.14"/>
+    <rect x="226.56" y=".48" width=".48" height="19.14"/>
+    <rect x="325.8" y=".48" width=".48" height="19.14"/>
+    <text class="cls-2" transform="translate(96.89 32.88)"><tspan x="0" y="0">False</tspan></text>
+    <text class="cls-2" transform="translate(22.61 32.88)"><tspan x="0" y="0">False</tspan></text>
+    <rect y="19.62" width="148.14" height=".48"/>
+    <rect x="149.1" y="19.62" width=".48" height=".48"/>
+    <rect x="148.14" y="19.62" width=".48" height=".48"/>
+    <rect x="149.58" y="19.62" width="77.46" height=".48"/>
+    <polyline points="227.04 19.62 325.8 19.62 325.8 20.1 227.04 20.1"/>
+    <rect x="325.8" y="19.62" width=".48" height=".48"/>
+    <rect y="20.1" width=".48" height="19.2"/>
+    <rect x="77.76" y="20.1" width=".48" height="19.2"/>
+    <rect x="149.1" y="20.1" width=".48" height="19.2"/>
+    <rect x="148.14" y="20.1" width=".48" height="19.2"/>
+    <rect x="226.56" y="20.1" width=".48" height="19.2"/>
+    <rect x="325.8" y="20.1" width=".48" height="19.2"/>
+    <text class="cls-2" transform="translate(100.19 52.56)"><tspan x="0" y="0">True</tspan></text>
+    <text class="cls-2" transform="translate(22.62 52.56)"><tspan x="0" y="0">False</tspan></text>
+    <rect y="39.3" width="148.14" height=".48"/>
+    <rect x="149.1" y="39.3" width=".48" height=".48"/>
+    <rect x="148.14" y="39.3" width=".48" height=".48"/>
+    <rect x="149.58" y="39.3" width="77.46" height=".48"/>
+    <polyline points="227.04 39.3 325.8 39.3 325.8 39.78 227.04 39.78"/>
+    <rect x="325.8" y="39.3" width=".48" height=".48"/>
+    <rect y="39.78" width=".48" height="19.14"/>
+    <rect x="77.76" y="39.78" width=".48" height="19.14"/>
+    <rect x="149.1" y="39.78" width=".48" height="19.14"/>
+    <rect x="148.14" y="39.78" width=".48" height="19.14"/>
+    <rect x="226.56" y="39.78" width=".48" height="19.14"/>
+    <rect x="325.8" y="39.78" width=".48" height="19.14"/>
+    <text class="cls-2" transform="translate(96.9 72.18)"><tspan x="0" y="0">False</tspan></text>
+    <text class="cls-2" transform="translate(25.92 72.18)"><tspan x="0" y="0">True</tspan></text>
+    <rect y="58.92" width="148.14" height=".48"/>
+    <rect x="149.1" y="58.92" width=".48" height=".48"/>
+    <rect x="148.14" y="58.92" width=".48" height=".48"/>
+    <rect x="149.58" y="58.92" width="77.46" height=".48"/>
+    <polyline points="227.04 58.92 325.8 58.92 325.8 59.4 227.04 59.4"/>
+    <rect x="325.8" y="58.92" width=".48" height=".48"/>
+    <rect y="59.4" width=".48" height="19.2"/>
+    <rect x="77.76" y="59.4" width=".48" height="19.2"/>
+    <rect x="149.1" y="59.4" width=".48" height="19.2"/>
+    <rect x="148.14" y="59.4" width=".48" height="19.2"/>
+    <rect x="226.56" y="59.4" width=".48" height="19.2"/>
+    <rect x="325.8" y="59.4" width=".48" height="19.2"/>
+    <text class="cls-2" transform="translate(25.92 91.86)"><tspan x="0" y="0">True</tspan></text>
+    <text class="cls-2" transform="translate(100.2 91.86)"><tspan x="0" y="0">True</tspan></text>
+    <rect y="78.6" width="148.14" height=".48"/>
+    <rect x="149.1" y="78.6" width=".48" height=".48"/>
+    <rect x="148.14" y="78.6" width=".48" height=".48"/>
+    <rect x="149.58" y="78.6" width="77.46" height=".48"/>
+    <polyline points="227.04 78.6 325.8 78.6 325.8 79.08 227.04 79.08"/>
+    <rect x="325.8" y="78.6" width=".48" height=".48"/>
+    <rect y="79.08" width=".48" height="19.62"/>
+    <rect y="98.22" width="77.76" height=".48"/>
+    <rect x="77.76" y="79.08" width=".48" height="19.62"/>
+    <rect x="78.24" y="98.22" width="69.9" height=".48"/>
+    <rect x="149.1" y="79.08" width=".48" height="19.14"/>
+    <rect x="148.14" y="79.08" width=".48" height="19.62"/>
+    <rect x="148.62" y="98.22" width="77.94" height=".48"/>
+    <rect x="226.56" y="79.08" width=".48" height="19.62"/>
+    <polyline points="227.04 98.22 325.8 98.22 325.8 98.7 227.04 98.7"/>
+    <rect x="325.8" y="79.08" width=".48" height="19.62"/>
+    <rect x="325.8" y="98.22" width=".48" height=".48"/>
+    <text class="cls-4" transform="translate(159.83 31.52)"><tspan x="0" y="0"> </tspan><tspan class="cls-3" x="2.54" y="0">F</tspan><tspan x="7.85" y="0">alse</tspan></text>
+    <text class="cls-4" transform="translate(161.97 51.39)"><tspan class="cls-3" x="0" y="0">F</tspan><tspan x="5.3" y="0">alse</tspan></text>
+    <text class="cls-4" transform="translate(162.28 71.57)"><tspan class="cls-3" x="0" y="0">F</tspan><tspan x="5.3" y="0">alse</tspan></text>
+    <text class="cls-4" transform="translate(162.89 91.13)"><tspan class="cls-3" x="0" y="0">T</tspan><tspan x="5.42" y="0">rue</tspan></text>
+    <text class="cls-4" transform="translate(233.82 30.9)"><tspan class="cls-5" x="0" y="0"> </tspan><tspan class="cls-3" x="2.05" y="0">T</tspan><tspan x="7.48" y="0">rue</tspan></text>
+    <text class="cls-4" transform="translate(238.71 50.47)"><tspan class="cls-3" x="0" y="0">T</tspan><tspan x="5.42" y="0">rue</tspan></text>
+    <text class="cls-4" transform="translate(237.18 70.95)"><tspan class="cls-3" x="0" y="0">T</tspan><tspan x="5.42" y="0">rue</tspan></text>
+    <text class="cls-4" transform="translate(238.1 90.83)"><tspan class="cls-3" x="0" y="0">F</tspan><tspan x="5.3" y="0">alse</tspan></text>
+  </g>
+</svg>

@@ -1,0 +1,699 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+<body>
+    
+<div>
+    <h1>Leaving Cert Exam 2022</h1>
+    <h2>Computer Science</h2>
+    <h2>Sections A & B</h2>
+    <h2>Ordinary Level</h2>
+</div>
+
+<section>
+
+<div class="section-heading">
+    <div><h2>Section A</h2></div>
+    <div><h2>Short Answer Questions</h2></div>
+    <div><h2>30 marks</h2></div>
+</div>
+
+<p>Answer any six questions.</p>
+
+<p><b>Question 1</b></p>
+<p>Given the following variable declarations, state the result of each of the Python print
+    statements in the table below.</p>
+
+<pre class="code-block">
+<code>
+a = 2
+b = 4
+</code>
+</pre>
+
+<table>
+    <tr>
+        <th>Print Statement</th>
+        <th>Result</th>
+    </tr>
+    <tr>
+        <td>print(a+b)</td>
+        <td>6</td>
+    </tr>
+    <tr>
+        <td>print(b-a)</td>
+        <td>2</td>
+    </tr>
+    <tr>
+        <td>print(a*b)</td>
+        <td>8</td>
+    </tr>
+    <tr>
+        <td>print(a/b)</td>
+        <td>0.5</td>
+    </tr>
+    <tr>
+        <td>print(a==b)</td>
+        <td>False</td>
+    </tr>
+</table>
+
+<p><b>Question 2</b></p>
+
+<p>The traffic at a busy road junction, similar to that in
+    Figure 1, is studied using a computer model. Briefly
+    explain two reasons why using a computer model
+    might be useful in this situation. </p>
+
+<img src="/resources/crossroads.jpg" width="550px"><br>
+<span>Figure 1</span>
+
+<p class="answer">
+    1. A computer model can do repetitive tasks over long periods of time. Computers are far more suited to 
+    these kinds of tasks than humans.<br>
+    2. Computer models can collect, store and analyse large amounts of data using AI and machine learning. 
+</p>
+
+<p><b>Question 3</b></p>
+
+<p>The pseudocode, shown in Figure 2 below, has been designed to run on a Microbit or similar
+    embedded system, shown in Figure 3. The embedded system has a green LED (light emitting
+    diode) connected to pin 0, a yellow LED connected to pin 1 and a red LED connected to pin 2.
+    Answer the questions that follow.</p>
+
+<img src="/resources/2022-ordA-microbit.svg" width="250px">
+
+<div class="grey-box">
+<p>Start<br>
+    Set all pins to off<br>
+    Set pin 0 to on<br>
+    Pause for 2 seconds<br>
+    Set pin 0 to off<br>
+    Set pin 1 to on<br>
+    Pause for 2 seconds<br>
+    Set pin 1 to off<br>
+    Set pin 2 to on <br>
+    </p>
+</div>
+<span>Figure 2</span>
+
+<p><b>(a)</b> Why are pauses included in this algorithm? </p>
+
+<p class="answer">
+    Pauses are included so the lights stay on for 2 seconds, otherwise they may not be noticed.
+</p>
+
+<p><b>(b)</b> Describe the appearance of the LEDs at the end of the algorithm.  </p>
+
+<p class="answer">
+    The last two steps of the algorithm involve pins 1 and 2. The yellow light turns off and the red light turns on.
+</p>
+
+<p><b>Question 4</b></p>
+
+<p>
+    If you were to look inside any modern computer, such as that in Figure 4,
+    you may be able to identify some of the following components:<br>
+    -Motherboard<br>
+    -Central Processing Unit (CPU)<br>
+    -Fan<br>
+    -Memory<br>
+    -Hard drive<br>
+    -Video card<br>
+    Select any three of the components listed above and briefly describe their purpose. 
+</p>
+
+<img src="/resources/insideComputer.jpg" width="350px">
+
+<p class="answer">
+    Motherboard: The motherboard is generally a thin circuit board that holds together almost 
+    all parts of a computer except input and output devices. All crucial hardware like CPU, memory, 
+    hard drive, and ports for input and output devices are located on the motherboard.<br><br>
+    CPU: The central processing unit carries out all the important functions of a computer. It receives 
+    instructions from both the hardware and active software and produces output. It then performs calculations, 
+    manipulates data, and produces output based on those instructions.<br><br>
+    Video card: A video card connects to the motherboard of a computer system and generates output images
+     to display. Video cards are also referred to as graphics cards.
+</p>
+
+<p><b>Question 5</b></p>
+
+<p>
+    A linear search algorithm, written in Python, is used to search the following list of integers.<br>
+    list = [11, 52, 37, 94, 12, 73, 62, 47] 
+</p>
+
+<p><b>(a)</b> What index value will be returned if you search for the number 94? </p>
+
+<p class="answer">
+    3
+</p>
+
+<p><b>(b)</b> Describe a limitation of the linear search algorithm. </p>
+
+<p class="answer">
+    The main disadvantage of the linear search algorithm lies in its lack of efficiency. The more
+elements there are in a list the greater the amount of time it will take to search for any
+specific element. In fact, the amount of time it takes to find a target value increases in
+proportion to the number of elements in the list to search. Therefore, it will take ten times
+longer to find an element in a list of 1,000 elements than it would for a list of 100 elements. 
+</p>
+
+<p><b>Question 6</b></p>
+<p>The flowchart, in Figure 5 below, is that of an algorithm for a game where the user has to guess a
+    number between 1 and 10 that has been randomly selected by the computer.</p>
+
+<img src="/resources/flowchart-ord1.jpg" width="550px"><br>
+<span>Figure 5</span>
+
+<p><b>(a)</b> What text is missing from the symbol labelled A? </p>
+
+<p class="answer">
+    if (guess < number)
+</p>
+
+<p><b>(b)</b> This game will end after the user makes one guess. Suggest an improvement to the
+    algorithm.</p>
+
+<p class="answer">
+    If the user's first guess is incorrect, they get another guess. The program asks them to input another number. 
+    The program tells the user if the first guess 
+    is too high or too low, so they have a good chance of getting the second answer correct.
+</p>
+
+<p><b>Question 7</b></p>
+<p>Name one female that has made a significant impact
+    on the field of computer science and briefly describe
+    the development she worked on. </p>
+
+<img src="/resources/femaleScientists.jpg" width="550px">
+
+<p class="answer">
+    Margaret Hamilton was the team leader for the software engineers that developed the Apollo Guidance Computer. 
+    This software was essential to 
+    landing the first people on the moon. The Apollo Guidance Computer was designed at the Massachusetts Institute
+    of Technology (MIT) and was an example of the third generation 
+    of computers, which were based on integrated circuits. The third generation of computers were smaller, 
+    more powerful and led to the era of super-computers. 
+</p>
+
+<p><b>Question 8</b></p>
+
+<p>
+    COVID-19 has had a significant impact on the use of technology and the Internet for remote work
+in business and education. It has also highlighted issues in the area known as the “digital divide”. 
+</p>
+
+<p><b>(a)</b> Describe one way digital technology has helped us during the COVID-19 Pandemic.</p>
+
+<p class="answer">
+    During the Covid pandemic, remote working allowed employees from companies to keep working together in groups, 
+    while still maintaining social distancing. Microsoft Teams for example, uses digital technology to provide a 
+    way for computer users to connect by video link, using the internet.
+</p>
+
+<p><b>(b)</b> The digital divide refers to the gap between people from different backgrounds that have access 
+    to modern information and communications technology (ICT), and those that don't have access.</p>
+
+<p><b>Question 9</b></p>
+
+<p>
+    Your friend has designed the app in Figure 6 so that they can ask people to review movies by
+    providing a score out of 10. When the app goes live the following data is collected. Your friend
+    wants to write a Python program to analyse the data. 
+</p>
+
+<img src="/resources/movieRater.jpg" width="200px"><br><br><br>
+
+<table width="150px">
+    <tr>
+        <td>8</td>
+    </tr>
+    <tr>
+        <td>5</td>
+    </tr>
+    <tr>
+        <td>Four</td>
+    </tr>
+    <tr>
+        <td>9.5</td>
+    </tr>
+    <tr>
+        <td>10/10</td>
+    </tr>
+    <tr>
+        <td>6</td>
+    </tr>
+    <tr>
+        <td>5 or 6</td>
+    </tr>
+</table>
+
+<p><b>(a)</b> Identify three issues with the dataset that would prevent your friend from being able to
+    analyse it.</p>
+
+<p class="answer">
+    1. There are strings in the dataset<br>
+    2. There is data which is a mixture of strings and integers<br>
+    3. The data is in a table, rather than in a list
+</p>
+
+<p><b>(b)</b> Suggest an improvement to the app so that the data is cleaner and can be analysed more
+    easily.</p>
+
+<p class="answer">
+    The app should not accept any input data other than an integer between 1 and 10.
+</p>
+
+<p><b>Question 10</b></p>
+
+<p><b>(a)</b> Match the picture of the electronic component to its name by placing the relevant letter in
+    the second column of the table below.</p>
+
+<table>
+    <tr>
+        <td><img src="/resources/Capacitor.jpg" width="100px"></td>
+        <td><img src="/resources/resistor.jpg" width="100px"></td>
+        <td><img src="/resources/transistor.jpg" width="100px"></td>
+    </tr>
+    <tr>
+        <td>A</td>
+        <td>B</td>
+        <td>C</td> 
+    </tr>
+</table>
+<br><br>
+<table>
+    <tr>
+        <th>Name</th>
+        <th>Component<br> 
+            (Write the letter)</th>
+    </tr>
+    <tr>
+        <td>Transisitor</td>
+        <td>C</td>
+    </tr>
+    <tr>
+        <td>Capacitor</td>
+        <td>A</td>
+    </tr>
+    <tr>
+        <td>Resistor</td>
+        <td>B</td>
+    </tr>
+</table>
+
+<p><b>(b)</b> Select any one of these electronic components and explain its purpose</p>
+
+<p class="answer">
+    Component name: Capacitor<br>
+    Expain: A capacitor is a device that stores electrical energy in an electric field by 
+    accumulating electric charges on two closely spaced surfaces that are insulated from each other.
+</p>
+
+<p><b>Question 11</b></p>
+
+<p>Complete the truth table for the AND logic gate, shown in Figure 7.</p>
+
+<img src="/resources/abAnd.jpg" width="150px">
+<br><br>
+<table>
+    <tr>
+        <th colspan="2">Inputs</th>
+        <th>Output</th>
+    </tr>
+    <tr>
+        <td>A</td>
+        <td>B</td>
+        <td>A and B</td>
+    </tr>
+    <tr>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>0</td>
+        <td>1</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>0</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>1</td>
+        <td>1</td>
+    </tr>
+</table>
+
+<p><b>Question 12</b></p>
+
+<p>In a game, shown in Figure 8, a player begins on the Start square, facing towards square 1. They
+    must follow the instructions given to them and see what number square they end up on. There are
+    only three instructions in the game. Instructions for the game are provided in pseudocode. </p>
+
+<img src="/resources/q12Fig8.jpg" width="350px">
+
+<table>
+    <tr>
+        <th>Instruction</th>
+        <th>Explanation</th>
+    </tr>
+    <tr>
+        <td>Step Forward</td>
+        <td>Step forward one square</td>
+    </tr>
+    <tr>
+        <td>Turn right</td>
+        <td>Rotate 90 degrees to the
+            right<br>
+            (Do not move forward) </td>
+    </tr>
+    <tr>
+        <td>Turn left</td>
+        <td>Rotate 90 degrees to the left<br>
+            (Do not move forward) 
+            </td>
+    </tr>
+</table>
+<br>
+
+<p><b>(a)</b> What number square will the player finish on when they follow these instructions? </p>
+
+<div class="grey-box">
+<span>
+Step Forward<br>
+Turn Right<br>
+Repeat 2 times:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;{Step Forward} <br>
+</span>
+</div>
+
+<p class="answer">
+    7
+</p>
+
+<p><b>(b)</b> What number square will the player finish on when they follow these instructions?</p>
+
+<div class="grey-box">
+<span>
+Repeat 2 times:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;{Step Forward}<br>
+Repeat 3 times:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;{Turn Right<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Step Forward} <br>
+</span>
+</div>
+
+<p class="answer">
+   1 
+</p>
+
+<div class="section-heading">
+    <div><h2>Section B</h2></div>
+    <div><h2>Long Questions</h2></div>
+    <div><h2>30 marks</h2></div>
+</div>
+
+<p>Answer any one question.</p>
+
+<p><b>Question 13</b></p>
+
+<p><b>(a)</b> Computer memory is measured in bits. The more bits combined together the bigger the
+    memory.</p>
+
+<p><b>(i)</b> Order the memory sizes in the list below from smallest to largest. The smallest should
+    be placed in row 1 and the largest in row 4:<br>
+    Terabyte, Bit, Gigabyte, Kilobyte
+</p>
+
+<table>
+    <tr>
+        <td>1 (smallest)</td>
+        <td>Bit</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>Kilobyte</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>Gigabyte</td>
+    </tr>
+    <tr>
+        <td>4 (largest)</td>
+        <td>Terabyte</td>
+    </tr>
+</table>
+
+<p><b>(ii)</b> A 24-hour digital alarm clock displays 4 digits at a time, as shown in Figure 9. Each digit
+    is stored internally as a 4-digit binary code.</p>
+
+<p>The time shown on the clock is represented as follows: </p>
+
+<span>(the first digit is the top row and the four digit is the bottom row)</span><br>
+
+<img src="/resources/alarmClockTable1.jpg" width="150px"><img src="/resources/alarmClock.jpg" width="350px"><br>
+
+<p>What time will be shown on the clock with the following binary code?</p>
+<img src="/resources/alarmClockTable2.jpg" width="150px"><br>
+
+<p class="answer">
+    20:59
+</p>
+
+<p><b>(b)</b> ASCII (American Standard Code for Information Interchange) and Unicode are two different
+    character sets used to encode and decode messages in digital communication. </p>
+
+<p><b>(i)</b> State whether each of the following statements is true or false, by putting an X in
+    the appropriate box.</p>
+
+<table>
+    <tr>
+        <td></td>
+        <td>True</td>
+        <td>False</td>
+    </tr>
+    <tr>
+        <td>The letter r can be represented in ASCII.</td>
+        <td>X</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>An emoji symbol can be represented in ASCII.</td>
+        <td></td>
+        <td>X</td>
+    </tr>
+    <tr>
+        <td>The number 9 can be represented in Unicode.</td>
+        <td>X</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>The symbol @ can be represented in Unicode. </td>
+        <td>X</td>
+        <td></td>
+    </tr>
+</table>
+
+<p><b>(ii)</b> Extended ASCII uses 8 bits per character rather than 7 bits. Calculate the number of
+    extra characters that can be represented using 8 bits rather than 7 bits.</p>
+
+<p class="answer">
+    128
+</p>
+
+<p><b>(c)</b> Data in computers is typically stored in primary or secondary storage.</p>
+
+<p><b>(i)</b> Describe two differences between primary and secondary storage in computers.</p>
+
+<p class="answer">
+    1. There are two type of primary memory: RAM and ROM. RAM is volatile memory and ROM is non-volatile memory.
+    2. Secondary storage includes a 'Solid State Drive', pen-drive or DVD. It is non-volatile memory, so it stores
+    memory, even after the computer is turned off.
+</p>
+
+<p><b>(ii)</b> The use of Solid State Drives (SSDs) rather that Hard Disk Drives (HDDs) has increased
+    in recent years. List two differences between SSDs and HDDs.</p>
+
+<p class="answer">
+    1. Solid State Drives are more modern, more efficient and faster than Hard Disk Drives.<br>
+    2. A Hard Disk Drive has moving parts. It's essentially a spinning disk. A Solid State Drive doesn't have 
+    moving parts.
+</p>
+
+<p><b>Question 14</b></p>
+
+<p>A secondary school wants to write a computer program that will decide which of its students can
+    leave the school grounds at lunch time. </p>
+
+<p><b>(a)</b> The school principal has provided the Computer Science class with the following information
+    to assist with writing the program:<br>
+    There are 700 students in the school, with 120 of these in 6th year. 60% of students are
+    female and 40% are male. Only students in 6th year or with a brother or sister in 6th year can
+    leave the school grounds at lunch time. Lunch break is 1 hour long. Parents must have signed
+    a consent form to say that the student can leave the school grounds.
+</p>
+
+<p><b>(i)</b> Using the computational thinking skill of abstraction, list two pieces of information,
+    provided by the principal, that are not needed to solve this problem.</p>
+
+<p class="answer">
+    1. 60% of students are female and 40% are male.<br>
+    2. Lunch break is 1 hour long.
+</p>
+
+<p><b>(ii)</b> Name one other computational thinking skill you will use to solve this problem and
+    how you will use it.</p>
+
+<p class="answer">
+    Computational thinking skill: Decomposition<br>
+    How it will be used: The problem needs to be broken down into it's basic parts, so the programmer can simplify
+     and get a better understanding of the problem.
+</p>
+
+<p><b>(b)</b> You will need to get data from the school office in order to create the program. </p>
+
+<p><b>(i)</b> Complete the table below with four items of data that will be required. You will need
+    to include a suitable variable name, a description of the data and the data type for the
+    variable. The first row has been completed for you.</p>
+
+<table>
+    <tr>
+        <th>Variable name</th>
+        <th>Description</th>
+        <th>Data type</th>
+    </tr>
+    <tr>
+        <td>firstName</td>
+        <td>Student's first name</td>
+        <td>String</td>
+    </tr>
+    <tr>
+        <td>in6thYr</td>
+        <td>Is the student in 6th year?</td>
+        <td>Boolean</td>
+    </tr>
+    <tr>
+        <td>sibling6thYr</td>
+        <td>Does the student have a sibling in 6th year?</td>
+        <td>Boolean</td>
+    </tr>
+    <tr>
+        <td>consentFormSigned</td>
+        <td>Has the parent signed the consent form?</td>
+        <td>Boolean</td>
+    </tr>
+    <tr>
+        <td>canLeaveSchool</td>
+        <td>Has permission to leave the school grounds</td>
+        <td>Boolean</td>
+    </tr>
+</table>
+
+<p><b>(ii)</b> When the program is complete you will need to test that it works as expected.
+    Describe two fictional students that you will use as test cases. One should pass the test
+    and be permitted out of the school grounds for lunch; the other should fail the test.
+    For example, the student John Doe in fifth year, with a sister in sixth year but no
+    parental consent will fail the test. </p>
+
+<p class="answer">
+    Student 1 (pass): Brian Daly, in 6th year, with a sister in 6th year, with parental consent.<br>
+    Student 2 (fail): Elsa, in 3rd year, with no brothers or sisters in 6th year, without parental consent.
+</p>
+
+<p><b>(c)</b> Using either pseudocode or a flowchart, design the algorithm to solve the problem for the
+    school principal.</p>
+
+<div class="answer">
+    <ol>
+        <li>Loop through list of students in school</li>
+        <li>Check if student is in 6th year or student has a sibling in 6th year</li>
+        <li>If true: add to list (eligibleList)</li>
+        <li>Loop through eligibleList and check if that student has parental consent</li>
+        <li>If true: add to list (permissionToLeave)</li>
+    </ol>
+</div>
+
+<p><b>Question 15</b></p>
+
+<p><b>(a)</b> Computing and technology has made huge progress over the last 100 years. Computers are
+    getting faster, smaller and more powerful. Figure 10 shows a timeline with some of the main
+    computing developments over the last century.</p>
+
+<img src="/resources/compTimeline.jpg" width="750px"><br>
+<span>Figure 10</span>
+
+<p><b>(i)</b> Describe one other development from the last 100 years that has been very important
+    for computing and technology.</p>
+
+<p class="answer">
+    The first personal computers or PCs arrived on the market in the 1970s and early 1980s. These included
+    models from brands like IBM and Apple.
+</p>
+
+<p><b>(ii)</b> Select a development from either Figure 10 or the development you described in
+    part (i) and provide two reasons why you think this development was important.</p>
+
+<p class="answer">
+    The development of the integrated circuit led to the third generation of computers in the 1960s. An 
+    integrated circuit is a number of electronic circuits all on a semiconductor or 'chip'. The third 
+    generation of computers allowed the development of smaller computers. Computers were small 
+    enough to be transported from one location to another. The integrated circuit also increased the computing 
+    power of computers and led to the first 'super-computer', the Cray-1.
+</p>
+
+<p><b>(b)</b> The World Wide Web and the Internet are often thought to be the same thing but they are
+    different. Explain the difference between the World Wide Web and the Internet. </p>
+
+<p class="answer">
+    The Internet is a collection of interconnected networks spanning the globe. It's billions of connected computers and other,
+     including the 'internet of things'.<br>
+    The world wide web is a system of connected websites, hosted on the internet. It includes HTML pages, videos,
+    pictures and audio files.
+</p>
+
+<p><b>(c)</b> It is very important to have a website that has a good user interface and is easy for the user
+    to use. Examine the screenshot of the website www.irishwrecksonline.net, shown in Figure
+    11 on the next page, and answer the questions that follow.</p>
+
+<img src="/resources/wrecksOnline.svg" width="750px">
+
+<p><b>(i)</b> Identify one good feature and one poor feature of user interface design on the
+    website. </p>
+
+<p class="answer">
+    Good feature: There is a menu with links to navigate the site<br>
+    Poor feature: There is alot of unnecessary information on the homepage
+</p>
+
+<p><b>(ii)</b> Suggest three improvements to the design of this website.</p>
+
+<p class="answer">
+    1. The website could have a more traditional layout with the menu on the top or the side of the webpage.<br>
+    2. The menu links should be buttons or hyperlinks, not both.<br>
+    3. Delete unnecessary information from the homepage, such as the 'creative commons' license. Put that
+    information in a more appropriate place, not in the header.
+</p>
+
+<p><b>(d)</b> Accessibility features are vitally important when designing websites and apps so that they
+    can be used by all users. Describe three ways by which designers of websites and apps can
+    make them accessible to users with different needs.</p>
+
+<p class="answer">
+    1. There could be an option to translate the site into different languages.<br>
+    2. The html code could include alt tags for visually impaired users who have screen readers.<br>
+    3. The webpage has many different fonts and font-sizes. The font-size should be easily legible and
+     more consistent.
+</p>
+
+
+
+</section>
+</body>
+</html>
